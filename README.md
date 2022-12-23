@@ -17,6 +17,7 @@ These are graphs created to analyze data for the game Squad, requested by Kam in
 ```
 python3 -m pip install pandas
 python3 -m pip install numpy
+python3 -m pip install notebook
 ```
 
 - Afterwards, run `python3 -m notebook` in this directory
