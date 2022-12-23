@@ -4,11 +4,11 @@
 These are graphs created to analyze data for the game Squad, requested by Kam in exchange for fumo :)
 
 ## Graphs
-[x] win_rate
-[x] levels played per month ( variable time period input is good here too, so you can look weekly etc)
-[x] Modes played per month (same as level but with mode)
-[x] number of mode/layer/level per bucket of winner tickets (under 100, 101-150, 151-200, 200+)
-[x] average winner tickets for each mode/layer/level
+- [x] win_rate
+- [x] levels played per month ( variable time period input is good here too, so you can look weekly etc)
+- [x] Modes played per month (same as level but with mode)
+- [x] number of mode/layer/level per bucket of winner tickets (under 100, 101-150, 151-200, 200+)
+- [x] average winner tickets for each mode/layer/level
 
 ## How to run this?
 - Have python3.11 installed ( used python3.11 for this, not sure if other versions work)
