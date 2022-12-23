@@ -1,5 +1,8 @@
 # kam_data_calculations
 
+## What is this for?
+These are graphs created to analyze data for the game Squad, requested by Kam in exchange for fumo :)
+
 ## Graphs
 [x] win_rate
 [x] levels played per month ( variable time period input is good here too, so you can look weekly etc)
