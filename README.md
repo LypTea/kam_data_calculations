@@ -1,8 +1,24 @@
 # kam_data_calculations
 
-## graphs
-1. win_rate
-2. levels played per month ( variable time period input is good here too, so you can look weekly etc)
-3. Modes played per month (same as level but with mode)
-4. Average winner tickets( Per level) % of games where winner tickets are under 100, 101-150, 151-200, 200+
-5. Above but per level, per mode, level and mode
+## Graphs
+[x] win_rate
+[x] levels played per month ( variable time period input is good here too, so you can look weekly etc)
+[x] Modes played per month (same as level but with mode)
+[x] number of mode/layer/level per bucket of winner tickets (under 100, 101-150, 151-200, 200+)
+[x] average winner tickets for each mode/layer/level
+
+## How to run this?
+- Have python3.11 installed ( used python3.11 for this, not sure if other versions work)
+- Run commands below in an administator terminal:
+
+```
+python3 -m pip install pandas
+python3 -m pip install numpy
+```
+
+- Afterwards, run `python3 -m notebook` in this directory
+  - Alternatively, you can use VSCode with Jupyter extension and it will work fine.
+
+## Notes on graphs
+- Some graphs that looked disgusting were excluded (namely dividing by layer, there are way too many to make a sensible looking graph).
+- The 'per month' graphs look weird but only because there is not enough data.
